@@ -53,7 +53,8 @@ const NeonatalFluidCalculator = () => {
     })
 
     const pesoString = patient.user_peso
-    const peso = parseInt(pesoString)
+    const pesoNumber = parseInt(pesoString)
+    const peso = pesoNumber / 1000
     const diasString = patient.user_dias
     const dias = parseInt(diasString)
     const appResults = appInit(peso, dias, hipoglicemiaCheck)
@@ -83,7 +84,8 @@ const NeonatalFluidCalculator = () => {
   }
   const handleClick = () => {
     const pesoString = patient.user_peso
-    const peso = parseInt(pesoString)
+    const pesoNumber = parseInt(pesoString)
+    const peso = pesoNumber / 1000
     const diasString = patient.user_dias
     const dias = parseInt(diasString)
     const appResults = appInit(peso, dias, hipoglicemiaCheck)
@@ -114,7 +116,7 @@ const NeonatalFluidCalculator = () => {
       <form action="" method="">
         <ul className="form">
           <li>
-            <label htmlFor="peso">Peso del paciente (kg)</label> <br/>
+            <label htmlFor="peso">Peso del paciente (gramos)</label> <br/>
             <input
               className="inputs" 
               type="text" 
