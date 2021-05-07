@@ -22,7 +22,7 @@ const Header = () => {
         <Dropdown.Menu>
           <Dropdown.Item><Link to="/liquidos-neonatos" className="item-menu-button">App</Link></Dropdown.Item>
           <Dropdown.Item><Link to="/about" className="item-menu-button">About</Link></Dropdown.Item>
-          {/* <Dropdown.Item><Link to="/portfolio" className="item-menu-button">Portfolio</Link></Dropdown.Item> */}
+          <Dropdown.Item><Link to="/portfolio" className="item-menu-button">Portfolio</Link></Dropdown.Item>
           <Dropdown.Item><Link to="/contact" className="item-menu-button">Contact</Link></Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
