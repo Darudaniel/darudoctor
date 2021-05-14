@@ -44,9 +44,7 @@ const NeonatalFluidCalculator = () => {
     setShow(false)
   }
 
-  const handleChange = event => {
-    console.log(event)
-    
+  const handleChange = event => {    
     setPatient({
       ...patient,
       [event.target.name]: event.target.value,
@@ -74,8 +72,6 @@ const NeonatalFluidCalculator = () => {
     setShow(false)
   }
   const handleClick = () => {
-    console.log(patient.user_dias)
-
     const pesoString = patient.user_peso
     const pesoNumber = parseInt(pesoString)
     const peso = pesoNumber / 1000
