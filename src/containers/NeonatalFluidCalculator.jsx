@@ -34,7 +34,7 @@ const NeonatalFluidCalculator = () => {
   
   const [patient, setPatient] = useState({
     user_peso: "0",
-    user_dias: "0"
+    user_dias: "1"
   })
   const [show, setShow] = useState(false)
   const [hipoglicemiaCheck, setHipoglicemiaCheck] = useState(false)
@@ -45,6 +45,7 @@ const NeonatalFluidCalculator = () => {
   }
 
   const handleChange = event => {
+    console.log(event)
     
     setPatient({
       ...patient,
@@ -58,17 +59,7 @@ const NeonatalFluidCalculator = () => {
     const diasString = patient.user_dias
     const dias = parseInt(diasString)
     const appResults = appInit(peso, dias, hipoglicemiaCheck)
-    // dextrosaSeleccionadaEnCc = appResults.dextrosaSeleccionadaEnCc.toFixed(1)
-    // console.log(dextrosaSeleccionadaEnCc)
-    // dextrosaSeleccionada = appResults.dextrosaSeleccionada
-    // ccDiference = appResults.ccDiference.toFixed(1)
-    // electrolitosMostrados = appResults.electrolitosMostrados
-    // porcentajeDeDextrosa = appResults.porcentajeDeDextrosa.toFixed(1)
-    // usoCateter = appResults.usoCateter
-    // cantidadDextrosaAl5Porciento = appResults.cantidadDextrosaAl5Porciento.toFixed(1)
-    // cantidadDextrosaAl10Porciento = appResults.cantidadDextrosaAl10Porciento.toFixed(1)
-    // cantidadDextrosaAl30Porciento = appResults.cantidadDextrosaAl30Porciento.toFixed(1)
-    // cantidadDextrosaAl50Porciento = appResults.cantidadDextrosaAl50Porciento.toFixed(1)
+   
     dextrosaSeleccionadaEnCc = appResults.dextrosaSeleccionadaEnCc
     dextrosaSeleccionada = appResults.dextrosaSeleccionada
     ccDiference = appResults.ccDiference
@@ -83,6 +74,8 @@ const NeonatalFluidCalculator = () => {
     setShow(false)
   }
   const handleClick = () => {
+    console.log(patient.user_dias)
+
     const pesoString = patient.user_peso
     const pesoNumber = parseInt(pesoString)
     const peso = pesoNumber / 1000
@@ -127,13 +120,20 @@ const NeonatalFluidCalculator = () => {
           </li>        
           <li>
             <label htmlFor="dias">Dias de vida</label> <br/>
-            <input 
+            <select className="inputs select-inputs" id="dias" name="user_dias" onChange={handleChange}>
+              <option value="1">1 dia</option>
+              <option value="2">2 dias</option>
+              <option value="3">3 dias</option>
+              <option value="4">4 dias</option>
+              <option value="5">5 dias</option>
+            </select>
+            {/* <input 
               className="inputs" 
               type="text" 
               id="dias" 
               name="user_dias" 
               onChange={handleChange}
-            />
+            /> */}
           </li>        
           <li  className="hipoglicemia-input">          
             <input 
