@@ -27,7 +27,47 @@ const Header = () => {
         </Dropdown.Menu>
       </Dropdown>
       <div className="navbar">
-
+        <ul className="nav-container">
+          <li className="item-list">
+            <Link to="/liquidos-neonatos">
+              <button 
+                  className="success-button navbar-button" 
+                  type="button"
+                >App
+              </button>
+            </Link>
+          </li>
+          <li className="item-list">
+            <Link to="/about">
+              <button 
+                  className="success-button navbar-button" 
+                  type="button" 
+                  id="botonCalcular"
+                >About
+              </button>
+            </Link>
+          </li>
+          <li className="item-list">
+            <Link to="/portfolio">
+              <button 
+                  className="success-button navbar-button" 
+                  type="button" 
+                  id="botonCalcular"
+                >Portfolio
+              </button>
+            </Link>
+          </li>
+          <li className="item-list">
+            <Link to="/contact">
+              <button 
+                  className="success-button navbar-button" 
+                  type="button" 
+                  id="botonCalcular"
+                >Contact
+              </button>
+            </Link>
+          </li>
+        </ul>
       </div>
     </div>
   )

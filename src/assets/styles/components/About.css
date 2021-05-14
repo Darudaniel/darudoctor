@@ -45,3 +45,17 @@
   bottom: -18px;
 }
 
+@media only screen and (min-width: 1024px) {
+  .about-container {
+    padding: 60px 140px;
+    text-align: center;
+  }
+  .title-about {
+    margin-bottom: 30px;
+  }
+  .p-about, .p-about-short {
+    margin: 0;
+    text-align: center;
+    font-size: 2rem;
+  }
+}

@@ -1,3 +1,4 @@
+import '../assets/styles/components/Layout.css'
 import Header from './Header'
 
 const Layout = ({ children }) => {
