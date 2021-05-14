@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.7877d854.chunk.css",
-    "main.js": "/static/js/main.6e23d07a.chunk.js",
-    "main.js.map": "/static/js/main.6e23d07a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.680abd85.js",
-    "runtime-main.js.map": "/static/js/runtime-main.680abd85.js.map",
+    "main.css": "/static/css/main.34c12557.chunk.css",
+    "main.js": "/static/js/main.8b2a78e4.chunk.js",
+    "main.js.map": "/static/js/main.8b2a78e4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5d3df911.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5d3df911.js.map",
     "static/css/2.ef9168ec.chunk.css": "/static/css/2.ef9168ec.chunk.css",
-    "static/js/2.b8686434.chunk.js": "/static/js/2.b8686434.chunk.js",
-    "static/js/2.b8686434.chunk.js.map": "/static/js/2.b8686434.chunk.js.map",
-    "static/js/3.7b7a7bc6.chunk.js": "/static/js/3.7b7a7bc6.chunk.js",
-    "static/js/3.7b7a7bc6.chunk.js.map": "/static/js/3.7b7a7bc6.chunk.js.map",
+    "static/js/2.4d6f2132.chunk.js": "/static/js/2.4d6f2132.chunk.js",
+    "static/js/2.4d6f2132.chunk.js.map": "/static/js/2.4d6f2132.chunk.js.map",
+    "static/js/3.73776e9a.chunk.js": "/static/js/3.73776e9a.chunk.js",
+    "static/js/3.73776e9a.chunk.js.map": "/static/js/3.73776e9a.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.ef9168ec.chunk.css.map": "/static/css/2.ef9168ec.chunk.css.map",
-    "static/css/main.7877d854.chunk.css.map": "/static/css/main.7877d854.chunk.css.map",
-    "static/js/2.b8686434.chunk.js.LICENSE.txt": "/static/js/2.b8686434.chunk.js.LICENSE.txt",
+    "static/css/main.34c12557.chunk.css.map": "/static/css/main.34c12557.chunk.css.map",
+    "static/js/2.4d6f2132.chunk.js.LICENSE.txt": "/static/js/2.4d6f2132.chunk.js.LICENSE.txt",
     "static/media/Aplastaos.ce0bc6a9.png": "/static/media/Aplastaos.ce0bc6a9.png",
     "static/media/Batatabit.420c7bea.png": "/static/media/Batatabit.420c7bea.png",
     "static/media/Helados.5950ef4b.png": "/static/media/Helados.5950ef4b.png",
@@ -21,10 +21,10 @@
     "static/media/RickAndMortyHeadsOrTails.24097b86.png": "/static/media/RickAndMortyHeadsOrTails.24097b86.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.680abd85.js",
+    "static/js/runtime-main.5d3df911.js",
     "static/css/2.ef9168ec.chunk.css",
-    "static/js/2.b8686434.chunk.js",
-    "static/css/main.7877d854.chunk.css",
-    "static/js/main.6e23d07a.chunk.js"
+    "static/js/2.4d6f2132.chunk.js",
+    "static/css/main.34c12557.chunk.css",
+    "static/js/main.8b2a78e4.chunk.js"
   ]
 }
