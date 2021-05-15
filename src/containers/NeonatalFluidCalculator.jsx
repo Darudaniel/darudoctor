@@ -2,21 +2,7 @@ import React, { useState } from 'react';
 import appInit from '../assets/functions/appInit';
 import AppTitle from '../components/AppTitle'
 import '../assets/styles/components/NeonatalFluidCalculator.css'
-// import { 
-  // appInit,
-  // dextrosaSeleccionadaEnCc,
-  // dextrosaSeleccionada, 
-  // ccDiference,
-  // electrolitosMostrados,
-  // porcentajeDeDextrosa,
-  // usoCateter,
-  // cantidadDextrosaAl5Porciento,
-  // cantidadDextrosaAl10Porciento,
-  // cantidadDextrosaAl30Porciento,
-  // cantidadDextrosaAl50Porciento
-// } from '../assets/functions/appInit'
 
- 
   let dextrosaSeleccionadaEnCc
   let dextrosaSeleccionada
   let ccDiference
@@ -95,9 +81,6 @@ const NeonatalFluidCalculator = () => {
     }
   }
 
-
-  // console.log(show)
-
   return (
     <div className="app-container">
       <AppTitle title="Liquidos en neonatos" subtitle="LOS PRIMEROS 5 DIAS DE VIDA" />
@@ -123,13 +106,6 @@ const NeonatalFluidCalculator = () => {
               <option value="4">4 dias</option>
               <option value="5">5 dias</option>
             </select>
-            {/* <input 
-              className="inputs" 
-              type="text" 
-              id="dias" 
-              name="user_dias" 
-              onChange={handleChange}
-            /> */}
           </li>        
           <li  className="hipoglicemia-input">          
             <input 
