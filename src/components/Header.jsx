@@ -42,7 +42,6 @@ const Header = () => {
               <button 
                   className="success-button navbar-button" 
                   type="button" 
-                  id="botonCalcular"
                 >About
               </button>
             </Link>
@@ -52,17 +51,24 @@ const Header = () => {
               <button 
                   className="success-button navbar-button" 
                   type="button" 
-                  id="botonCalcular"
                 >Portfolio
               </button>
             </Link>
+          </li>
+          <li className="item-list">
+            <a href="https://darudoctor.wordpress.com/">
+              <button 
+                  className="success-button navbar-button" 
+                  type="button" 
+                >Blog
+              </button>
+            </a>
           </li>
           <li className="item-list">
             <Link to="/contact">
               <button 
                   className="success-button navbar-button" 
                   type="button" 
-                  id="botonCalcular"
                 >Contact
               </button>
             </Link>
