@@ -5,6 +5,7 @@
   --third-color: rgba(53,68,119,0.2);
   --just-white: rgb(251, 251, 253);
   --input-background: rgb(219, 228, 230);
+  --success-color: rgba(131, 255, 175, 0.945);
 }
 *{
   box-sizing: border-box;
@@ -29,7 +30,7 @@ a:hover {
 .success-button {
   padding: 10px 20px;
   margin: 5px;
-  background-color: rgba(131, 255, 175, 0.945);
+  background-color: var(--success-color);
   border: 1px solid rgba(0, 0, 0, 0.5);
 }
 

@@ -14,9 +14,9 @@ const Header = () => {
       </Link>
       <Dropdown className="burger-menu">
         <Dropdown.Toggle className="burger-button" variant="Secondary" id="dropdown-basic">
-          ____<br/>
-          ___<br/>
-          ____
+          ______<br/>
+          ______<br/>
+          ______
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
