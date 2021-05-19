@@ -23,6 +23,7 @@ const Header = () => {
           <Dropdown.Item><Link to="/liquidos-neonatos" className="item-menu-button">App</Link></Dropdown.Item>
           <Dropdown.Item><Link to="/about" className="item-menu-button">About</Link></Dropdown.Item>
           <Dropdown.Item><Link to="/portfolio" className="item-menu-button">Portfolio</Link></Dropdown.Item>
+          <Dropdown.Item href="https://darudoctor.wordpress.com/"> <div className="item-menu-button">Blog</div> </Dropdown.Item>
           <Dropdown.Item><Link to="/contact" className="item-menu-button">Contact</Link></Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
