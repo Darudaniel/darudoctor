@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.3caee4a3.chunk.css",
+    "main.css": "/static/css/main.80b98349.chunk.css",
     "main.js": "/static/js/main.4f808dee.chunk.js",
     "main.js.map": "/static/js/main.4f808dee.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5d3df911.js",
@@ -12,7 +12,7 @@
     "static/js/3.73776e9a.chunk.js.map": "/static/js/3.73776e9a.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.ef9168ec.chunk.css.map": "/static/css/2.ef9168ec.chunk.css.map",
-    "static/css/main.3caee4a3.chunk.css.map": "/static/css/main.3caee4a3.chunk.css.map",
+    "static/css/main.80b98349.chunk.css.map": "/static/css/main.80b98349.chunk.css.map",
     "static/js/2.4d6f2132.chunk.js.LICENSE.txt": "/static/js/2.4d6f2132.chunk.js.LICENSE.txt",
     "static/media/Aplastaos.ce0bc6a9.png": "/static/media/Aplastaos.ce0bc6a9.png",
     "static/media/Batatabit.420c7bea.png": "/static/media/Batatabit.420c7bea.png",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.5d3df911.js",
     "static/css/2.ef9168ec.chunk.css",
     "static/js/2.4d6f2132.chunk.js",
-    "static/css/main.3caee4a3.chunk.css",
+    "static/css/main.80b98349.chunk.css",
     "static/js/main.4f808dee.chunk.js"
   ]
 }
