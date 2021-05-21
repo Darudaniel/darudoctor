@@ -1,10 +1,13 @@
 import '../assets/styles/containers/Portfolio.css'
 
 import Project from '../components/Project'
+import ButtonLink from '../components/ButtonLink'
+
 import batatabitImage from '../assets/images/Batatabit.png'
 import heladosImage from '../assets/images/Helados.png'
 import aplastaosImage from '../assets/images/Aplastaos.png'
 import hotRickAndMorty from '../assets/images/RickAndMortyHeadsOrTails.png'
+
 
 const Portfolio = () => {
   return(
@@ -34,6 +37,12 @@ const Portfolio = () => {
           image={aplastaosImage}
           link="https://darudaniel.github.io/fast-food/"
         /> 
+      </div>
+      <div className="contact-CTA">
+        <p className="contact-invitation">
+          Averigua sin compromiso.
+        </p>
+        <ButtonLink title="Contactar" link="/contact" />
       </div>     
     </div>
   )
