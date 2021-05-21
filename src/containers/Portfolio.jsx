@@ -42,7 +42,11 @@ const Portfolio = () => {
         <p className="contact-invitation">
           Averigua sin compromiso.
         </p>
-        <ButtonLink title="Contactar" link="/contact" />
+        <ButtonLink 
+          title="Contactar" 
+          link="/contact"
+          color="success"
+        />
       </div>     
     </div>
   )
