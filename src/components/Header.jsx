@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom'
 const Header = () => {
   return(
     <div className="Header">
-      <Link to="/liquidos-neonatos" className="logo-container">
+      <Link to="/home" className="logo-container">
         <h1 className="logo">DD</h1>
       </Link>
-      <Link to="/liquidos-neonatos" className="title-container">
+      <Link to="/home" className="title-container">
         <h2>Daru</h2>
         <h2 className="doctor">doctor</h2>
       </Link>
@@ -20,9 +20,10 @@ const Header = () => {
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
-          <Dropdown.Item><Link to="/liquidos-neonatos" className="item-menu-button">App</Link></Dropdown.Item>
+          <Dropdown.Item><Link to="/home" className="item-menu-button">Home</Link></Dropdown.Item>
           <Dropdown.Item><Link to="/about" className="item-menu-button">About</Link></Dropdown.Item>
           <Dropdown.Item><Link to="/portfolio" className="item-menu-button">Portfolio</Link></Dropdown.Item>
+          <Dropdown.Item><Link to="/liquidos-neonatos" className="item-menu-button">App</Link></Dropdown.Item>
           <Dropdown.Item href="https://darudoctor.wordpress.com/"> <div className="item-menu-button">Blog</div> </Dropdown.Item>
           <Dropdown.Item><Link to="/contact" className="item-menu-button">Contact</Link></Dropdown.Item>
         </Dropdown.Menu>
@@ -30,11 +31,11 @@ const Header = () => {
       <div className="navbar">
         <ul className="nav-container">
           <li className="item-list">
-            <Link to="/liquidos-neonatos">
+            <Link to="/home">
               <button 
                   className="success-button navbar-button" 
                   type="button"
-                >App
+                >Home
               </button>
             </Link>
           </li>
@@ -53,6 +54,15 @@ const Header = () => {
                   className="success-button navbar-button" 
                   type="button" 
                 >Portfolio
+              </button>
+            </Link>
+          </li>
+          <li className="item-list">
+            <Link to="/liquidos-neonatos">
+              <button 
+                  className="success-button navbar-button" 
+                  type="button"
+                >App
               </button>
             </Link>
           </li>

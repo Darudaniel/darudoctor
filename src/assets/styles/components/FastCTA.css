@@ -1,0 +1,35 @@
+.FastCTA {
+  display: flex;
+  margin: 20px;
+  padding: 20px 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+}
+.copywrite {
+  font-size: 1.7rem;
+  padding: 25px 0;
+  text-align: center;
+}
+
+@media only screen and (min-width: 424px) {
+  .copywrite {
+    font-size: 2.3rem;
+  }
+}
+@media only screen and (min-width: 767px) {
+  .copywrite {
+    font-size: 2.8rem;
+    padding: 25px;
+  }
+}
+@media only screen and (min-width: 767px) {
+  .FastCTA {
+    margin: 80px;
+  }
+  .copywrite {
+    font-size: 4rem;
+    padding: 25px;
+  }
+}
+

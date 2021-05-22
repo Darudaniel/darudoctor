@@ -1,0 +1,32 @@
+.Footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0 25px 0;
+  background-color: var(--page-background);
+}
+.footer-copywrite {
+  padding: 20px;
+  text-align: center;
+  color: var(--primary-color);
+  font-weight: 100
+}
+
+.social-networks {
+  padding:15px;
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--primary-color);
+}
+
+@media only screen and (min-width: 767px) {
+  .footer-copywrite {
+    font-size: 2.5rem;
+  }  
+}
+@media only screen and (min-width: 1023px) {
+  .footer-copywrite {
+    font-size: 3rem;
+  }  
+}
