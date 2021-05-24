@@ -1,31 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.abe8a6d0.chunk.css",
-    "main.js": "/static/js/main.c40014b8.chunk.js",
-    "main.js.map": "/static/js/main.c40014b8.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1bbad488.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1bbad488.js.map",
+    "main.css": "/static/css/main.1ca07164.chunk.css",
+    "main.js": "/static/js/main.b9a36b51.chunk.js",
+    "main.js.map": "/static/js/main.b9a36b51.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.16779d73.js",
+    "runtime-main.js.map": "/static/js/runtime-main.16779d73.js.map",
     "static/css/2.ef9168ec.chunk.css": "/static/css/2.ef9168ec.chunk.css",
-    "static/js/2.6bf79810.chunk.js": "/static/js/2.6bf79810.chunk.js",
-    "static/js/2.6bf79810.chunk.js.map": "/static/js/2.6bf79810.chunk.js.map",
-    "static/js/3.7822f53d.chunk.js": "/static/js/3.7822f53d.chunk.js",
-    "static/js/3.7822f53d.chunk.js.map": "/static/js/3.7822f53d.chunk.js.map",
+    "static/js/2.a5d67c82.chunk.js": "/static/js/2.a5d67c82.chunk.js",
+    "static/js/2.a5d67c82.chunk.js.map": "/static/js/2.a5d67c82.chunk.js.map",
+    "static/js/3.24f4e181.chunk.js": "/static/js/3.24f4e181.chunk.js",
+    "static/js/3.24f4e181.chunk.js.map": "/static/js/3.24f4e181.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.ef9168ec.chunk.css.map": "/static/css/2.ef9168ec.chunk.css.map",
-    "static/css/main.abe8a6d0.chunk.css.map": "/static/css/main.abe8a6d0.chunk.css.map",
-    "static/js/2.6bf79810.chunk.js.LICENSE.txt": "/static/js/2.6bf79810.chunk.js.LICENSE.txt",
+    "static/css/main.1ca07164.chunk.css.map": "/static/css/main.1ca07164.chunk.css.map",
+    "static/js/2.a5d67c82.chunk.js.LICENSE.txt": "/static/js/2.a5d67c82.chunk.js.LICENSE.txt",
     "static/media/Aplastaos.ce0bc6a9.png": "/static/media/Aplastaos.ce0bc6a9.png",
     "static/media/Batatabit.420c7bea.png": "/static/media/Batatabit.420c7bea.png",
     "static/media/HeaderHomeImage.3c24f51e.jpg": "/static/media/HeaderHomeImage.3c24f51e.jpg",
     "static/media/Helados.5950ef4b.png": "/static/media/Helados.5950ef4b.png",
     "static/media/MedicineProfile.d657e9fd.png": "/static/media/MedicineProfile.d657e9fd.png",
+    "static/media/Programadora.3efd82f2.jpg": "/static/media/Programadora.3efd82f2.jpg",
     "static/media/RickAndMortyHeadsOrTails.24097b86.png": "/static/media/RickAndMortyHeadsOrTails.24097b86.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1bbad488.js",
+    "static/js/runtime-main.16779d73.js",
     "static/css/2.ef9168ec.chunk.css",
-    "static/js/2.6bf79810.chunk.js",
-    "static/css/main.abe8a6d0.chunk.css",
-    "static/js/main.c40014b8.chunk.js"
+    "static/js/2.a5d67c82.chunk.js",
+    "static/css/main.1ca07164.chunk.css",
+    "static/js/main.b9a36b51.chunk.js"
   ]
 }
