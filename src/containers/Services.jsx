@@ -7,7 +7,7 @@ const Services = () => {
   return(
     <div className="Services">
       <figure>
-        <img className="hero-image" src={Programadora} alt="Mujer programando" />
+        <img className="hero-services-image" src={Programadora} alt="Mujer programando" />
       </figure>
       <h2 className="title-services">Desarrollo la pagina web ideal para <br />
         tu negocio.

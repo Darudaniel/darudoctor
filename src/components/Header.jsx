@@ -20,8 +20,9 @@ const Header = () => {
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
-          <Dropdown.Item><Link to="/home" className="item-menu-button">Home</Link></Dropdown.Item>
+          <Dropdown.Item><Link to="/home" className="item-menu-button">Inicio</Link></Dropdown.Item>
           <Dropdown.Item><Link to="/about" className="item-menu-button">About</Link></Dropdown.Item>
+          <Dropdown.Item><Link to="/services" className="item-menu-button">Servicios</Link></Dropdown.Item>
           <Dropdown.Item><Link to="/portfolio" className="item-menu-button">Portfolio</Link></Dropdown.Item>
           <Dropdown.Item><Link to="/liquidos-neonatos" className="item-menu-button">App</Link></Dropdown.Item>
           <Dropdown.Item href="https://darudoctor.wordpress.com/"> <div className="item-menu-button">Blog</div> </Dropdown.Item>
@@ -35,7 +36,7 @@ const Header = () => {
               <button 
                   className="success-button navbar-button" 
                   type="button"
-                >Home
+                >Inicio
               </button>
             </Link>
           </li>
@@ -45,6 +46,15 @@ const Header = () => {
                   className="success-button navbar-button" 
                   type="button" 
                 >About
+              </button>
+            </Link>
+          </li>
+          <li className="item-list">
+            <Link to="/services">
+              <button 
+                  className="success-button navbar-button" 
+                  type="button" 
+                >Services
               </button>
             </Link>
           </li>

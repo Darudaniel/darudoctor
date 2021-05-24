@@ -13,6 +13,7 @@
   margin: 20px 16px;
   padding: 20px;
   max-width: 360px;
+  max-height: 390px;
 }
 .service-title, .service-subtitle, .service-price {
   text-align: center;
@@ -37,6 +38,9 @@
 }
 
 @media only screen and (min-width:767px) {
+  .Service {
+    min-height: 280px;
+  }
   .service-title {
     font-size: 3rem;
   }
