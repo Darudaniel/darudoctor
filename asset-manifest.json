@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.5e71dae7.chunk.css",
-    "main.js": "/static/js/main.3fec0b7b.chunk.js",
-    "main.js.map": "/static/js/main.3fec0b7b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ca61c4bb.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ca61c4bb.js.map",
+    "main.css": "/static/css/main.abe8a6d0.chunk.css",
+    "main.js": "/static/js/main.c40014b8.chunk.js",
+    "main.js.map": "/static/js/main.c40014b8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1bbad488.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1bbad488.js.map",
     "static/css/2.ef9168ec.chunk.css": "/static/css/2.ef9168ec.chunk.css",
-    "static/js/2.1655dc9b.chunk.js": "/static/js/2.1655dc9b.chunk.js",
-    "static/js/2.1655dc9b.chunk.js.map": "/static/js/2.1655dc9b.chunk.js.map",
-    "static/js/3.c48c0bb8.chunk.js": "/static/js/3.c48c0bb8.chunk.js",
-    "static/js/3.c48c0bb8.chunk.js.map": "/static/js/3.c48c0bb8.chunk.js.map",
+    "static/js/2.6bf79810.chunk.js": "/static/js/2.6bf79810.chunk.js",
+    "static/js/2.6bf79810.chunk.js.map": "/static/js/2.6bf79810.chunk.js.map",
+    "static/js/3.7822f53d.chunk.js": "/static/js/3.7822f53d.chunk.js",
+    "static/js/3.7822f53d.chunk.js.map": "/static/js/3.7822f53d.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.ef9168ec.chunk.css.map": "/static/css/2.ef9168ec.chunk.css.map",
-    "static/css/main.5e71dae7.chunk.css.map": "/static/css/main.5e71dae7.chunk.css.map",
-    "static/js/2.1655dc9b.chunk.js.LICENSE.txt": "/static/js/2.1655dc9b.chunk.js.LICENSE.txt",
+    "static/css/main.abe8a6d0.chunk.css.map": "/static/css/main.abe8a6d0.chunk.css.map",
+    "static/js/2.6bf79810.chunk.js.LICENSE.txt": "/static/js/2.6bf79810.chunk.js.LICENSE.txt",
     "static/media/Aplastaos.ce0bc6a9.png": "/static/media/Aplastaos.ce0bc6a9.png",
     "static/media/Batatabit.420c7bea.png": "/static/media/Batatabit.420c7bea.png",
     "static/media/HeaderHomeImage.3c24f51e.jpg": "/static/media/HeaderHomeImage.3c24f51e.jpg",
@@ -22,10 +22,10 @@
     "static/media/RickAndMortyHeadsOrTails.24097b86.png": "/static/media/RickAndMortyHeadsOrTails.24097b86.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ca61c4bb.js",
+    "static/js/runtime-main.1bbad488.js",
     "static/css/2.ef9168ec.chunk.css",
-    "static/js/2.1655dc9b.chunk.js",
-    "static/css/main.5e71dae7.chunk.css",
-    "static/js/main.3fec0b7b.chunk.js"
+    "static/js/2.6bf79810.chunk.js",
+    "static/css/main.abe8a6d0.chunk.css",
+    "static/js/main.c40014b8.chunk.js"
   ]
 }
