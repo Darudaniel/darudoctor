@@ -1,16 +1,19 @@
+.form-container {
+  margin-bottom: 20px;
+}
 .contact-container {
   display: flex;
+  width: 100%;
   flex-direction: column;
   align-items: center;
 }
 .contact-title {
-  margin-top: 30px;
-  font-size: 2rem;
-  font-weight: 500;
-  margin-bottom: 10px;
+  padding: 25px;
+  font-weight: bold;
+  text-align: center;
 }
 .networks-container {
-  width: 100vw;
+  width: 90vw;
   height: 60vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -24,4 +27,16 @@
   justify-content: center;
   align-items: center;
   color: rgb(58, 64, 67);
+}
+
+@media only screen and (min-width:767px) {
+  .contact-title {
+    font-size: 3rem;
+    padding: 25px 130px;
+  }
+  .networks-container {
+    display: flex;
+    height: 150px;
+    justify-content: space-around
+  }
 }

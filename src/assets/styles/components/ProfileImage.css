@@ -1,0 +1,32 @@
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(238,255,255,1) 84%, rgba(238,255,255,1) 100%);
+}
+.profile-image {
+  margin-top: 10px;
+  width: 180px;
+  height: auto;
+  overflow: hidden;
+  box-shadow: 0px 7px 8px 0px black;
+}
+
+@media only screen and (min-width: 767px) {
+  .img-container {
+    margin: 20px;
+  }
+  .profile-image {
+    width: 26vw;
+  }
+}
+
+@media only screen and (min-width: 1023px) {
+  .img-container {
+    margin: 60px;
+  }
+}
