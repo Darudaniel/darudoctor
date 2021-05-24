@@ -67,9 +67,9 @@
 
 .item-menu-button {
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
-  font-size: 4rem;
+  font-size: 3rem;
   margin-bottom: 10px;
-  font-weight: 100;
+  font-weight: 400;
   color: rgb(51, 49, 49);
 }
 
@@ -82,6 +82,7 @@
 .dropdown-item {
   display: flex;
   justify-content: center;
+  border-bottom: 1px solid var(--secondary-color);
 }
 
 .dropdown-item.active, .dropdown-item:active {
@@ -101,7 +102,14 @@
   border-radius: 5px;
   box-shadow: 2px 2px 10px -3px var(--secondary-color);
   font-size: 1.8rem;
-  font-weight: 300;
+  font-weight: 400;
+}
+
+
+@media only screen and (min-width: 767px) {
+  .item-menu-button {
+    font-size: 4rem;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
