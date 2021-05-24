@@ -11,6 +11,7 @@ import About from './containers/About'
 import Contact from './containers/Contact'
 import Portfolio from './containers/Portfolio.jsx'
 import NeonatalFluidCalculator from './containers/NeonatalFluidCalculator';
+import Services from './containers/Services'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/services" component={Services} />
 
           {/* APPS */}
           <Route exact path="/liquidos-neonatos" component={NeonatalFluidCalculator} />

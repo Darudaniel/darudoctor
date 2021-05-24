@@ -1,0 +1,31 @@
+.Services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-image {
+	width: 100%;
+	min-width: 320px;
+	max-height: 300px;
+	object-fit: cover;
+}
+
+.title-services {
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.bigger-title {
+  font-size: 5rem;
+}
+
+@media only screen and (min-width:767px) {
+  .services-section {
+    display: flex;
+  }
+  .title-services {
+    font-size: 3rem;
+  }
+}
