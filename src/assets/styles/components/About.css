@@ -6,7 +6,7 @@
   background: rgba(0, 0, 0, 0.664);
 }
 .about-img {
-  width: 90%;
+  width: 100%;
 	min-width: 320px;
 	max-height: 800px;
 	object-fit: cover;
@@ -56,6 +56,7 @@
 }
 .triangle-betterment {
   width: 90%;
+  height: auto;
 }
 
 .button-contact--container {
