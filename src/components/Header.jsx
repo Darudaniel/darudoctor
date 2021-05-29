@@ -1,8 +1,15 @@
 import '../assets/styles/components/Header.css'
-import Dropdown from 'react-bootstrap/Dropdown'
+import { useContext } from 'react'
 import { Link } from 'react-router-dom'
+import AppContext from '../context/AppContext'
+import Dropdown from 'react-bootstrap/Dropdown'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faShoppingBasket } from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
+  const { state } = useContext(AppContext)
+  const { cart } = state
+  const basket = <FontAwesomeIcon icon={faShoppingBasket} size="1x"/>
   return(
     <div className="Header">
       <Link to="/home" className="logo-container">
@@ -31,6 +38,14 @@ const Header = () => {
       </Dropdown>
       <div className="navbar">
         <ul className="nav-container">
+          <li className="item-list">
+            <Link to="/checkout">
+              <button className="success-button navbar-button" type="button">
+                {basket}
+              </button>
+            </Link>
+            {cart.length > 0 && <div className="Header-alert">{cart.length}</div> }
+          </li>
           <li className="item-list">
             <Link to="/home">
               <button 

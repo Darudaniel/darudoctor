@@ -3,7 +3,24 @@ import Service from '../components/Service'
 import ContactForm from '../components/ContactForm'
 import Programadora from '../assets/images/Programadora.jpg'
 
+import { useContext } from 'react'
+import AppContext from '../context/AppContext'
+
 const Services = () => {
+  const {state, addToCart} = useContext(AppContext)
+  const { services } = state
+
+  // const handleAddToCart = service => () => {
+  //   addToCart(service)
+  // }
+
+  const handleAddToCart = service => () =>{
+    const random = Math.floor(Math.random() * 1000);
+    const newProduct = {...service, cartId : `${service.id}-${random}`};
+    console.log(newProduct);
+    addToCart(newProduct)
+  }
+
   return(
     <div className="Services">
       <figure>
@@ -14,6 +31,11 @@ const Services = () => {
       </h2>
       <h3 className="title-services bigger-title">Servicios</h3>
       <section className="services-section">
+      {services.map(service => (
+          <Service key={service.id} service={service} handleAddToCart={handleAddToCart} />
+        ))}
+      </section>
+      {/* <section className="services-section">
         <Service
           title="Digitalizar tu negocio"
           subtitle="para llegar a muchos clientes."
@@ -32,7 +54,7 @@ const Services = () => {
           price="$200"
           link="/contact"
         />
-      </section>
+      </section> */}
       <h4 className="title-services">Contactame y obten descuentos especiales.</h4>
       <ContactForm/>
       <div className="caracteristicas">
