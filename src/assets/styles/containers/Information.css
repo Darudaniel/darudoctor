@@ -1,17 +1,23 @@
+.Information-container {
+  display: flex;
+  justify-content: center;
+}
 .Information {
-  grid-template-columns: 3fr 1fr;
-  grid-gap: 2rem;
-  grid-row-gap: 1.5em;
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   margin: 0 0 4em 0;
+  padding: 30px;
+  max-width: 900px;
 }
 .Information-buttons {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .Information-sidebar {
-  margin: 10px 0 0 0;
+  /* display: none; */
+  margin: 20px 0 0 0;
 }
 .Information-back {
   margin: 10px 0 0 0;
@@ -19,7 +25,17 @@
 .Information-item {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--secondary-color);
+}
+.information-title {
+  padding: 10px 20px 10px 0;
+}
+.infortmation-total-price {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 10px 0;
 }
 .Information-item .fas {
   margin: 0 0 0 10px;
@@ -37,6 +53,7 @@
   align-items: center;
   width: 100%;
   border-bottom: 1px solid #eee;
+  padding:3px 0;
 }
 .Information-element h4 {
   margin: 0;
@@ -68,9 +85,7 @@ input {
   width: 100%;
   box-sizing: border-box;
 }
-.Information-buttons {
-  margin: 10px 0 0 ;
-}
+
 .Information button {
   box-shadow: inset 0px 1px 0px 0px #bee2f9;
   background: linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
@@ -90,3 +105,18 @@ input {
   display: block;
   outline: none;
 }
+
+
+@media only screen and (min-width: 767px) {
+  .Information {
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 2rem;
+    grid-row-gap: 1.5em;
+    display: grid;
+  }
+}
+/* @media only screen and (min-width: 1023px) {
+  .Information {
+    padding: 60px;
+  }  
+} */

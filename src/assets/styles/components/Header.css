@@ -31,6 +31,14 @@
   color: var(--secondary-color);
 }
 
+.Header-alert {
+  position: relative;
+  top: -53px;
+  right: -45px;
+  color: var(--page-background);
+  font-size: 1.3rem;
+}
+
 .navbar {
   grid-column: 6;
   display: none;
@@ -42,7 +50,7 @@
 .burger-button {
   line-height: 11px;
   text-align: center;
-  padding-bottom: 10px;
+  padding: 5px 5px;
   margin-left: 20px;
   background-color: white;
   border: 1px solid black;
@@ -66,6 +74,8 @@
 }
 
 .item-menu-button {
+  width: 100%;
+  display: block;
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
   font-size: 2.8rem;
   margin-bottom: 10px;

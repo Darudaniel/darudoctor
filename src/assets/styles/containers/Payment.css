@@ -1,8 +1,14 @@
+.Payment-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 .Payment {
   grid-template-columns: 3fr 1fr;
   grid-gap: 2rem;
   grid-row-gap: 1.5em;
   display: grid;
+  padding: 20px 40px;
 }
 .Payment-back {
   margin: 10px 0 0 0;
@@ -11,6 +17,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 10px 0;
+  font-size: 1.6rem;
+}
+.payment-item-title {
+  padding-right: 30px;
+}
+.payment-total-price {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: var(--primary-color);
 }
 .Payment-item .fas {
   margin: 0 0 0 10px;
@@ -31,4 +47,13 @@
 }
 .Payment-element h4 {
   margin: 0;
+}
+.Payment-button {
+  margin: 20px 0;
+}
+
+@media only screen and (min-width: 420px) {
+  .Payment-button {
+    width: 300px;
+  }
 }

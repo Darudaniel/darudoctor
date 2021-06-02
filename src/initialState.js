@@ -1,6 +1,8 @@
 // export default {
 const initialState = {
   cart: [],
+  buyer: [],
+  orders: [],
   services: [
     {
       'id': '1',

@@ -4,31 +4,48 @@
   justify-content: center;
 }
 .Checkout {
-  /* grid-template-columns: 3fr 1fr;
-  grid-gap: 2rem;
-  grid-row-gap: 1.5em;
-  display: grid; */
-  /* padding: 0 10px 4em 10px; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   max-width: 1500px;
   padding: 30px;
+  padding-top: 5px;
 }
+.checkout-title {
+  font-weight: bold;
+  margin: 20px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.checkout-item--title {
+  /* padding: 25px 0; */
+  font-size: 2rem;
+}
+
 .Checkout-content {
   min-width: 200px;
-  margin: 30px;
+  margin: 0 20px;
+  font-size: 2rem;
+}
+.remove-button {
+  margin: 0 10px;
+  color: rgb(133, 5, 5);
+  align-self: flex-start;
 }
 .Checkout-item {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+  padding: 20px 5px 20px 0;
+  /* justify-content: space-between; */
+  /* align-items: center; */
   margin: 10px 0 0 0;
+  border-bottom: 1px solid var(--secondary-color);
 }
 .Checkout-item .fas {
   margin: 0 0 0 10px;
-  color: rgba(0,0,0,0.4);
+  /* color: rgba(0,0,0,0.4); */
   cursor: pointer;
 }
 .Checkout-item button {
@@ -39,17 +56,20 @@
 .Checkout-element {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
   border-bottom: 1px solid #eee;
 }
 .Checkout-element h4 {
-  margin: 0;
+  margin: 0 15px;
 }
 
 .Checkout-sidebar {
+  align-self: flex-start;
   margin: 30px;
+  font-weight: bold;
 }
+
 .Checkout-sidebar button {
   box-shadow: inset 0px 1px 0px 0px #bee2f9;
   background: linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
@@ -72,4 +92,13 @@
 
 a {
   text-decoration: none;
+}
+
+@media only screen and (min-width: 767px) {
+  .Checkout {
+    padding-top: 40px;
+  }
+  .Checkout-element h4 {
+    margin: 0 30px;
+  }
 }

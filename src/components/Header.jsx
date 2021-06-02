@@ -4,12 +4,22 @@ import { Link } from 'react-router-dom'
 import AppContext from '../context/AppContext'
 import Dropdown from 'react-bootstrap/Dropdown'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faShoppingBasket } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faShoppingBasket, faHome, faAddressCard, faDesktop, faFileCode, faCalculator, faBlog, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
   const { state } = useContext(AppContext)
   const { cart } = state
+  
+  const bars = <FontAwesomeIcon icon={faBars} size="4x"/>
   const basket = <FontAwesomeIcon icon={faShoppingBasket} size="1x"/>
+  const homeIcon = <FontAwesomeIcon icon={faHome} size="1x"/>
+  const aboutIcon = <FontAwesomeIcon icon={faAddressCard} size="1x"/>
+  const desktopIcon = <FontAwesomeIcon icon={faDesktop} size="1x"/>
+  const fileIcon = <FontAwesomeIcon icon={faFileCode} size="1x"/>
+  const calulatorIcon = <FontAwesomeIcon icon={faCalculator} size="1x"/>
+  const blogIcon = <FontAwesomeIcon icon={faBlog} size="1x"/>
+  const envelopeIcon = <FontAwesomeIcon icon={faEnvelope} size="1x"/>
+  
   return(
     <div className="Header">
       <Link to="/home" className="logo-container">
@@ -21,19 +31,18 @@ const Header = () => {
       </Link>
       <Dropdown className="burger-menu">
         <Dropdown.Toggle className="burger-button" variant="Secondary" id="dropdown-basic">
-          ______<br/>
-          ______<br/>
-          ______
+          {bars}
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
-          <Dropdown.Item><Link to="/home" className="item-menu-button">Inicio</Link></Dropdown.Item>
-          <Dropdown.Item><Link to="/about" className="item-menu-button">About</Link></Dropdown.Item>
-          <Dropdown.Item><Link to="/services" className="item-menu-button">Servicios</Link></Dropdown.Item>
-          <Dropdown.Item><Link to="/portfolio" className="item-menu-button">Portfolio</Link></Dropdown.Item>
-          <Dropdown.Item><Link to="/liquidos-neonatos" className="item-menu-button">App</Link></Dropdown.Item>
-          <Dropdown.Item href="https://darudoctor.wordpress.com/"> <div className="item-menu-button">Blog</div> </Dropdown.Item>
-          <Dropdown.Item><Link to="/contact" className="item-menu-button">Contact</Link></Dropdown.Item>
+          <Dropdown.Item><Link to="/home" className="item-menu-button">{homeIcon} Inicio</Link></Dropdown.Item>
+          <Dropdown.Item><Link to="/checkout" className="item-menu-button">{basket} Ver carrito</Link></Dropdown.Item>
+          <Dropdown.Item><Link to="/about" className="item-menu-button">{aboutIcon} About</Link></Dropdown.Item>
+          <Dropdown.Item><Link to="/services" className="item-menu-button">{desktopIcon} Servicios</Link></Dropdown.Item>
+          <Dropdown.Item><Link to="/portfolio" className="item-menu-button">{fileIcon} Portfolio</Link></Dropdown.Item>
+          <Dropdown.Item><Link to="/liquidos-neonatos" className="item-menu-button">{calulatorIcon} App</Link></Dropdown.Item>
+          <Dropdown.Item href="https://darudoctor.wordpress.com/"> <div className="item-menu-button">{blogIcon} Blog</div> </Dropdown.Item>
+          <Dropdown.Item><Link to="/contact" className="item-menu-button">{envelopeIcon} Contact</Link></Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
       <div className="navbar">
@@ -43,15 +52,15 @@ const Header = () => {
               <button className="success-button navbar-button" type="button">
                 {basket}
               </button>
+              {cart.length > 0 && <div className="Header-alert">{cart.length}</div> }
             </Link>
-            {cart.length > 0 && <div className="Header-alert">{cart.length}</div> }
           </li>
           <li className="item-list">
             <Link to="/home">
               <button 
                   className="success-button navbar-button" 
                   type="button"
-                >Inicio
+                >Inicio 
               </button>
             </Link>
           </li>
@@ -60,7 +69,7 @@ const Header = () => {
               <button 
                   className="success-button navbar-button" 
                   type="button" 
-                >About
+                >About 
               </button>
             </Link>
           </li>
@@ -78,7 +87,7 @@ const Header = () => {
               <button 
                   className="success-button navbar-button" 
                   type="button" 
-                >Portfolio
+                >Portfolio  
               </button>
             </Link>
           </li>
@@ -87,7 +96,7 @@ const Header = () => {
               <button 
                   className="success-button navbar-button" 
                   type="button"
-                >App
+                >App 
               </button>
             </Link>
           </li>
@@ -96,7 +105,7 @@ const Header = () => {
               <button 
                   className="success-button navbar-button" 
                   type="button" 
-                >Blog
+                >Blog 
               </button>
             </a>
           </li>
@@ -105,7 +114,7 @@ const Header = () => {
               <button 
                   className="success-button navbar-button" 
                   type="button" 
-                >Contact
+                >Contact  
               </button>
             </Link>
           </li>
