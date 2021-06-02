@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.fc9779c7.chunk.css",
-    "main.js": "/static/js/main.87772436.chunk.js",
-    "main.js.map": "/static/js/main.87772436.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.12923a5c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.12923a5c.js.map",
+    "main.css": "/static/css/main.40f6272b.chunk.css",
+    "main.js": "/static/js/main.b7e822de.chunk.js",
+    "main.js.map": "/static/js/main.b7e822de.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e256aa1d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e256aa1d.js.map",
     "static/css/2.ef9168ec.chunk.css": "/static/css/2.ef9168ec.chunk.css",
-    "static/js/2.e7409529.chunk.js": "/static/js/2.e7409529.chunk.js",
-    "static/js/2.e7409529.chunk.js.map": "/static/js/2.e7409529.chunk.js.map",
-    "static/js/3.db05f4ee.chunk.js": "/static/js/3.db05f4ee.chunk.js",
-    "static/js/3.db05f4ee.chunk.js.map": "/static/js/3.db05f4ee.chunk.js.map",
+    "static/js/2.ae5000c5.chunk.js": "/static/js/2.ae5000c5.chunk.js",
+    "static/js/2.ae5000c5.chunk.js.map": "/static/js/2.ae5000c5.chunk.js.map",
+    "static/js/3.9b859c93.chunk.js": "/static/js/3.9b859c93.chunk.js",
+    "static/js/3.9b859c93.chunk.js.map": "/static/js/3.9b859c93.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.ef9168ec.chunk.css.map": "/static/css/2.ef9168ec.chunk.css.map",
-    "static/css/main.fc9779c7.chunk.css.map": "/static/css/main.fc9779c7.chunk.css.map",
-    "static/js/2.e7409529.chunk.js.LICENSE.txt": "/static/js/2.e7409529.chunk.js.LICENSE.txt",
+    "static/css/main.40f6272b.chunk.css.map": "/static/css/main.40f6272b.chunk.css.map",
+    "static/js/2.ae5000c5.chunk.js.LICENSE.txt": "/static/js/2.ae5000c5.chunk.js.LICENSE.txt",
     "static/media/Aplastaos.ce0bc6a9.png": "/static/media/Aplastaos.ce0bc6a9.png",
     "static/media/Batatabit.420c7bea.png": "/static/media/Batatabit.420c7bea.png",
     "static/media/CamisaProgramador.68f9822a.jpg": "/static/media/CamisaProgramador.68f9822a.jpg",
@@ -25,10 +25,10 @@
     "static/media/TriangleBetterment.c62bdfdd.png": "/static/media/TriangleBetterment.c62bdfdd.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.12923a5c.js",
+    "static/js/runtime-main.e256aa1d.js",
     "static/css/2.ef9168ec.chunk.css",
-    "static/js/2.e7409529.chunk.js",
-    "static/css/main.fc9779c7.chunk.css",
-    "static/js/main.87772436.chunk.js"
+    "static/js/2.ae5000c5.chunk.js",
+    "static/css/main.40f6272b.chunk.css",
+    "static/js/main.b7e822de.chunk.js"
   ]
 }
