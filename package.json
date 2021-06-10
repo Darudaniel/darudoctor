@@ -19,6 +19,8 @@
     "react": "^17.0.2",
     "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.2",
+    "react-ga": "^3.3.0",
+    "react-gtm-module": "^2.0.11",
     "react-paypal-button": "^4.1.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",

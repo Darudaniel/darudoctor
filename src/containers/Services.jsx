@@ -5,6 +5,7 @@ import Programadora from '../assets/images/Programadora.jpg'
 
 import { useContext } from 'react'
 import AppContext from '../context/AppContext'
+import ReactGA from 'react-ga'
 
 const Services = () => {
   const {state, addToCart} = useContext(AppContext)
@@ -19,6 +20,10 @@ const Services = () => {
     const newProduct = {...service, cartId : `${service.id}-${random}`};
     console.log(newProduct);
     addToCart(newProduct)
+    ReactGA.event({
+      category: 'Button',
+      action: `Add "${service.title}" service to cart`
+    })
   }
 
   return(

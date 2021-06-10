@@ -3,30 +3,17 @@ import CamisaProgramador from '../assets/images/CamisaProgramador.jpg'
 import TriangleBetterment from '../assets/images/TriangleBetterment.png'
 import ButtonLink from '../components/ButtonLink'
 import Footer from '../components/Footer'
-
-
-// const About = () => {
-//   return(
-//     <div className="about-container">
-//       <h2 className="title-about">About me</h2>
-//       <p className="p-about">I'm a medical student and web developer. <br></br></p>
-//       <p className="p-about">All people know at least one way to change the world, but they never act. <br></br></p>
-//       <p> </p>
-//       <p> </p>
-//       <p className="p-about p-about-short">
-//         I can't stop thinking about how I can help, so if you have a good idea, I want to work with you. Get in touch with me
-//       </p>
-//       <div className="mpi-cover">
-
-//       </div>
-//       <figure className="mpi-container">
-//       </figure>
-//         <img className="medicine-profile-image" src={medicineProfile} alt="medic watching at infinite"/>
-//     </div>
-//   )
-// }
+import ReactGA from 'react-ga'
 
 const About = () => {
+
+  const handleClick = () => {
+    ReactGA.event({
+        category: 'Button',
+        action: `Read more`
+      })
+  }
+
   return (
     <div className="About">
       <section className="about-hero--img">
@@ -44,7 +31,7 @@ const About = () => {
         <h3 className="about-subtitle">Que el medico programe tu web pero...</h3>
       </div>
       <a href="#reading-zone" className="button-center--container">
-        <button type="button" className="dark-button button-center">
+        <button onClick={handleClick} type="button" className="dark-button button-center">
           Leer más ˇ
         </button>
       </a>

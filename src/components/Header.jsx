@@ -5,6 +5,7 @@ import AppContext from '../context/AppContext'
 import Dropdown from 'react-bootstrap/Dropdown'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faShoppingBasket, faHome, faAddressCard, faDesktop, faFileCode, faCalculator, faBlog, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import ReactGA from 'react-ga'
 
 const Header = () => {
   const { state } = useContext(AppContext)
@@ -19,6 +20,13 @@ const Header = () => {
   const calulatorIcon = <FontAwesomeIcon icon={faCalculator} size="1x"/>
   const blogIcon = <FontAwesomeIcon icon={faBlog} size="1x"/>
   const envelopeIcon = <FontAwesomeIcon icon={faEnvelope} size="1x"/>
+
+  const handleClick = () => {
+    ReactGA.event({
+        category: 'Menu',
+        action: `Burger menu`
+      })
+  }
   
   return(
     <div className="Header">
@@ -29,7 +37,8 @@ const Header = () => {
         <h2>Daru</h2>
         <h2 className="doctor">doctor</h2>
       </Link>
-      <Dropdown className="burger-menu">
+      
+      <Dropdown className="burger-menu" onClick={handleClick}>
         <Dropdown.Toggle className="burger-button" variant="Secondary" id="dropdown-basic">
           {bars}
         </Dropdown.Toggle>

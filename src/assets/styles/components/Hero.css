@@ -31,7 +31,7 @@
 
 @media only screen and (min-width: 767px) {
   .text-container {
-		top: calc(16%);
+		top: calc(11%);
 		left: calc(10%);
 		padding: 300px;
 		margin: 300px;
@@ -44,7 +44,7 @@
 		font-size: 3rem;
 	}
 	.hero-button {
-		top: calc(40%);
+		top: calc(30%);
 		left: calc(50%);
 	}
 }

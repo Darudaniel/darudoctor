@@ -7,7 +7,7 @@ import batatabitImage from '../assets/images/Batatabit.png'
 import heladosImage from '../assets/images/Helados.png'
 import aplastaosImage from '../assets/images/Aplastaos.png'
 import hotRickAndMorty from '../assets/images/RickAndMortyHeadsOrTails.png'
-
+import Footer from '../components/Footer'
 
 const Portfolio = () => {
   return(
@@ -47,7 +47,8 @@ const Portfolio = () => {
           link="/contact"
           color="success"
         />
-      </div>     
+      </div> 
+      <Footer/>    
     </div>
   )
 }

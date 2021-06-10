@@ -1,6 +1,20 @@
 .Success {
+  display: flex;
+  width: 100%;
+  justify-content: center;
   margin: 0 0 4em 0;
 }
 .Success-map {
   margin: 10px 0 0 0;
+}
+
+.Success-content {
+  font-size: 2rem;
+  padding: 30px;
+  text-align: center;
+  max-width: 768px;
+}
+.success-title {
+  font-weight: bold;
+  font-size: 3rem;
 }

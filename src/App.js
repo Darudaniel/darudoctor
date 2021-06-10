@@ -1,4 +1,5 @@
 import './App.css';
+import { useEffect } from 'react'
 import {
   BrowserRouter as Router,
   Switch,
@@ -19,9 +20,24 @@ import Success from './containers/Success.jsx'
 
 import AppContext from './context/AppContext'
 import useInitialState from './hooks/useInitialState'
+import ReactGA from 'react-ga'
+
+//Implementacion de tag manager
+import TagManager from 'react-gtm-module'
+const tagManagerArgs = {
+  gtmId: 'GTM-WN92JL5'
+}
+TagManager.initialize(tagManagerArgs)
+// hasta aqui
 
 function App() {
+  useEffect(() => {
+    ReactGA.initialize('UA-198971628-2')
+    ReactGA.pageview(window.location.pathname + window.location.search)
+  }, [])
   const initialState = useInitialState()
+
+
   return (
     <AppContext.Provider value={initialState}>
       <Router>
