@@ -146,7 +146,7 @@ const NeonatalFluidCalculator = () => {
             </li>        
           </ul>
         </div>
-        <div className="text-container">
+        <div className="NeonatalApp-text-container">
           <h3>En caso de querer hacer los calculos manualmente estas son las cantidades de dextrosa en CC que se necesitan segun su concentracion</h3>
         </div>
         <div className="otras-dextrosas-container">
