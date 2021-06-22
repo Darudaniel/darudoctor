@@ -53,8 +53,6 @@
   .text-container {
 		top: calc(13%);
 		left: calc(10%);
-		/* padding: 300px;
-		margin: 300px; */
 		width: 400px;
 	}
 	.hero-title {
@@ -82,8 +80,6 @@
 @media only screen and (min-width: 1300px) {
   .text-container {
 		left: calc(10%);
-		/* padding: 300px;
-		margin: 300px; */
 		width: 400px;
 	}
 	.hero-title {

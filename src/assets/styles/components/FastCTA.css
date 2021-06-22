@@ -1,7 +1,6 @@
 .FastCTA {
   display: flex;
   margin: 20px;
-  padding: 20px 0;
   flex-direction: column;
   align-items: center;
   justify-content: center; 
