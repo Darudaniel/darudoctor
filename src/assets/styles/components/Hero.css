@@ -11,6 +11,7 @@
 	display: block;
 	position: absolute;
 	top: 80px;
+	padding: 20px
 }
 .hero-title {
 	text-align: left;
@@ -33,8 +34,7 @@
   .text-container {
 		top: calc(11%);
 		left: calc(10%);
-		padding: 300px;
-		margin: 300px;
+		padding: 50px 0px;
 	}
   .hero-title {
 		font-size: 7rem;
@@ -44,7 +44,7 @@
 		font-size: 3rem;
 	}
 	.hero-button {
-		top: calc(30%);
+		top: 260px;
 		left: calc(50%);
 	}
 }
@@ -53,8 +53,8 @@
   .text-container {
 		top: calc(13%);
 		left: calc(10%);
-		padding: 300px;
-		margin: 300px;
+		/* padding: 300px;
+		margin: 300px; */
 		width: 400px;
 	}
 	.hero-title {
@@ -65,8 +65,8 @@
 		font-size: 3rem;
 	}
 	.hero-button {
-		top: calc(30%);
-		left: calc(48%);
+		top: 290px;
+		left: 470px;
 	}
 }
 
@@ -82,8 +82,8 @@
 @media only screen and (min-width: 1300px) {
   .text-container {
 		left: calc(10%);
-		padding: 300px;
-		margin: 300px;
+		/* padding: 300px;
+		margin: 300px; */
 		width: 400px;
 	}
 	.hero-title {
